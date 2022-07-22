@@ -1,0 +1,200 @@
+*{
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+
+ .nav{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 20px;
+     color: white;
+     background-color: rgb(65, 64, 64);
+ }
+ .brand{
+     /* font-family: Arial, Helvetica, sans-serif; */
+ }
+ li{
+     display: inline-block;
+     margin-left: 20px;
+     
+ }
+ li > a{
+     color: white;
+     text-decoration: none;
+     cursor: pointer;
+ }
+ li > a:hover{
+     color:rgb(240, 90, 90);
+     border-bottom: 1px solid rgb(240, 90, 90);
+     transition: 500ms ease-in;
+ }
+ header{
+     text-align: center;
+     min-height: 70vh;
+     /* background-image: url("../img/websitedownload.jpg"); */
+     background:linear-gradient( to bottom, rgba(213, 214, 219, 0.52), rgb(37, 36, 36)), url("../img/websitedownload.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+     display: flex;
+     flex-direction: column;
+     padding: 50px;
+     align-items: center;
+     justify-content: center;
+     color: white;
+ }
+ 
+ header > h2{
+     padding: 0 0 20px 0;
+     color: white;
+     font-size: 32px;
+     font-family: 'Kaushan Script', cursive;
+     text-shadow: 2px 2px 4px black;
+     letter-spacing: 1px;
+ }
+ .started{
+     margin-top: 10px;
+ }
+ .middle{
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     padding: 15px;
+     background-color:  rgb(65, 64, 64);
+     color: white;
+ }
+ input{
+     height: 30px;
+     width: 30%;
+     padding: 5px;
+     outline: 0;
+     border: none;
+     border-radius: 20px;
+     padding-right: 20px;
+ }
+ button{
+     cursor: pointer;
+     background-color:rgb(240, 90, 90);
+     border: none;
+     color: white;
+     height: 30px;
+     width:20%;
+     border-radius: 7px;
+ }
+ .section{
+     display: flex ;
+     padding: 50px;
+     align-items: center;
+     background-color: rgb(231, 235, 238);
+     /* flex-direction: column; */
+     flex-wrap: wrap;
+ }
+ .section > h1{
+    font-family: 'Kaushan Script', cursive;
+    color: rgb(240, 90, 90);
+ }
+ .section1{
+     padding: 30px;
+     background-color: white;
+     border-radius: 5px;
+     margin: 10px;
+     border-left: 5px solid rgb(240, 90, 90);
+     width: 31%;
+     box-sizing: border-box;
+     margin-top: 30px;
+ }
+ .section1:hover{
+     background-color:rgb(240, 90, 90) ;
+     color: white;
+     border-left: 5px solid white;
+     transition: 900ms ease-in;
+     cursor: pointer;
+ }
+ .section1 > h4{
+     padding: 0 0 10px 0;
+     text-align: center;
+ }
+ .section > h1{
+     flex-basis: 100%; 
+     /* flex-shrink:0; */
+     /* display: block; */
+     /* width: 100%; */
+     /* border: 2px solid black; */
+     text-align: center;
+     
+ }
+ .section1 > i{
+     width: 40px;
+     display: block;
+     margin: auto;
+     font-size: 60px;
+ }
+ .section2{
+     padding: 30px;
+     background-color: white;
+     border-left:5px solid rgb(240, 90, 90);
+     border-radius: 5px;
+     margin: 10px;
+     width: 31%;
+     box-sizing: border-box;
+     margin-top: 30px;
+ }
+ .section2:hover{
+     background-color:rgb(240, 90, 90) ;
+     color: white;
+     border-left: 5px solid white;
+     transition: 900ms ease-in;
+     cursor: pointer;
+ }
+ .section2 > p{
+     text-align: center;
+ }
+ .section2 > h4{
+     padding: 0 0 10px 0;
+     text-align: center;
+ }
+ .section2 > i{
+     width: 40px;
+     display: block;
+     margin: auto;
+     font-size: 60px;
+ }
+ .section3{
+     padding: 30px;
+     background-color: white;
+     border-left:5px solid rgb(240, 90, 90);
+     border-radius: 5px;
+     margin: 10px;
+     width: 31%;
+     box-sizing: border-box;
+     margin-top: 30px;
+ }
+ .section3:hover{
+     background-color:rgb(240, 90, 90);
+     border-left: 5px solid white;
+     transition: 900ms ease-in;
+     color: white;
+     cursor: pointer;
+ }
+ .section3 > h4{
+     padding: 0 0 10px 0;
+     text-align: center;
+ }
+ .section3 > p{
+     text-align: center;
+ }
+ .section3 > i{
+     width: 40px;
+     display: block;
+     margin: auto;
+     font-size: 60px;
+ }
+ footer{
+     background-color: rgb(240, 90, 90);
+     color: white;
+     text-align: center;
+     padding: 10px;
+ }
